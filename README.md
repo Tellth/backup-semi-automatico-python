@@ -7,6 +7,9 @@ Cria uma cópia organizada com data e hora, preservando arquivos e estrutura de 
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
 ![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow)
 
+## Demonstração Rápida
+![demo-backup.gif](assets/demo-backup.gif)
+
 ## Funcionalidades
 
 - Seleção da pasta de origem via diálogo gráfico
