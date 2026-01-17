@@ -7,6 +7,9 @@ Cria uma cópia organizada com data e hora, preservando arquivos e estrutura de 
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
 ![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow)
 
+## Demonstração Rápida
+![demo-backup.gif](assets/demo-backup.gif)
+
 ## Funcionalidades
 
 - Seleção da pasta de origem via diálogo gráfico
@@ -28,8 +31,8 @@ Cria uma cópia organizada com data e hora, preservando arquivos e estrutura de 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Tellth/backup-semi-automatico.git
-   cd backup-semi-automatico
+   git clone https://github.com/Tellth/backup-semi-automatico-python.git
+   cd backup-semi-automatico-python
 2. Execute o programa:
    ```bash
    python backup_pastas_tkinter.py
