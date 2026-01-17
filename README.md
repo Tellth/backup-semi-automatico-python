@@ -30,3 +30,6 @@ Cria uma cópia organizada com data e hora, preservando arquivos e estrutura de 
    ```bash
    git clone https://github.com/Tellth/backup-semi-automatico.git
    cd backup-semi-automatico
+2. Execute o programa:
+   ```bash
+   python backup_pastas_tkinter.py
