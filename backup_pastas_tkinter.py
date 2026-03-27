@@ -2,7 +2,7 @@
 import os
 import shutil
 import datetime
-import tkinter.filedialog as  fidia
+import tkinter.filedialog as fidia
 
 pasta_com_arquivos = fidia.askdirectory()
 
@@ -11,7 +11,7 @@ lista_arquivos = os.listdir(pasta_com_arquivos)
 # aba de seleção da pasta de destino
 pasta_de_backup = fidia.askdirectory()
 
-caminho_pasta_de_backup = "backup-"+os.path.basename(pasta_com_arquivos)
+caminho_pasta_de_backup = "backup-" + os.path.basename(pasta_com_arquivos)
 
 caminho_completo_pasta_de_backup = f"{pasta_de_backup}/{caminho_pasta_de_backup}"
 
@@ -28,6 +28,3 @@ for arquivo in lista_arquivos:
         shutil.copy2(caminho_completo_arquivo_origem, caminho_completo_arquivo_backup)
     elif f"{caminho_pasta_de_backup}" != arquivo:
         shutil.copytree(caminho_completo_arquivo_origem, caminho_completo_arquivo_backup)
-
-
-
